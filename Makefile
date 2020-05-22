@@ -1,7 +1,5 @@
-all ::
-	brew install -v *.rb
-	brew audit --strict *.rb
-	brew test *.rb
-
-update ::
+test ::
 	brew update
+	brew install -v Formula/*.rb
+	brew audit --strict Formula/*.rb
+	brew test Formula/*.rb
