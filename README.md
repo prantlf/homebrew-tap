@@ -10,6 +10,12 @@ Bottles can be installed directly to the cellar:
 
     brew install prantlf/tap/saz-tools
 
+## Upgrade
+
+A keg with a once poured bottle can be upgraded to a newer version:
+
+    brew upgrade saz-tools
+
 ## Registration
 
 You can tap the repository and drop the prefix `prantlf/tap/` when installing the packages.

@@ -1,0 +1,40 @@
+{
+  "name": "saz-tools",
+  "full_name": "saz-tools",
+  "oldname": null,
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Parsing, dumping, viewing and analysing tools for SAZ (Fiddler) files",
+  "homepage": "https://github.com/prantlf/saz-tools",
+  "versions": {
+    "stable": "0.0.10",
+    "devel": null,
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_darwin_x86_64.tar.gz",
+      "tag": null,
+      "revision": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {},
+  "keg_only": false,
+  "bottle_disabled": true,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}
