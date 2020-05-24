@@ -7,14 +7,14 @@
   "desc": "Parsing, dumping, viewing and analysing tools for SAZ (Fiddler) files",
   "homepage": "https://github.com/prantlf/saz-tools",
   "versions": {
-    "stable": "0.0.10",
+    "stable": "0.0.11",
     "devel": null,
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_darwin_x86_64.tar.gz",
+      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.11/saz-tools_0.0.11_darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null
     }
