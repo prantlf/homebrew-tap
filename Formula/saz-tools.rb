@@ -2,24 +2,24 @@
 class SazTools < Formula
   desc "Parsing, dumping, viewing and analysing tools for SAZ (Fiddler) files"
   homepage "https://github.com/prantlf/saz-tools"
-  version "0.0.10"
+  version "0.0.11"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_darwin_x86_64.tar.gz"
-    sha256 "847ac164e2e313cd3de0880c472a58773f8dcb601ffce38e7ef3469a4faaffad"
+    url "https://github.com/prantlf/saz-tools/releases/download/v0.0.11/saz-tools_0.0.11_darwin_x86_64.tar.gz"
+    sha256 "e86918ac538ce16cd0ecf7f822971c201963c01a29346cff3adc55162f1831e3"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_linux_x86_64.tar.gz"
-      sha256 "592220c35483b3af4eeca80e0cacb82da25c6d4d404f203d6f9337c0476b1beb"
+      url "https://github.com/prantlf/saz-tools/releases/download/v0.0.11/saz-tools_0.0.11_linux_x86_64.tar.gz"
+      sha256 "31a80dfdbf9e9966d447d323d14e7b02a633da0fbecdc9033d79c02a45d4363d"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_linux_arm64.tar.gz"
-        sha256 "e512a947409d61d1b2f9d367202f2c1725e450c97f6e2f200db8adb67a0cbc8d"
+        url "https://github.com/prantlf/saz-tools/releases/download/v0.0.11/saz-tools_0.0.11_linux_arm64.tar.gz"
+        sha256 "84b92cc767d9eded6e0327205f7f95f2ed1aac0b0ba1dc41aefeac9531027330"
       else
-        url "https://github.com/prantlf/saz-tools/releases/download/v0.0.10/saz-tools_0.0.10_linux_armv6.tar.gz"
-        sha256 "a59bf1b2cc8229f7ea23a03f1671cdd9513b72294df9776062cfab4eacca259b"
+        url "https://github.com/prantlf/saz-tools/releases/download/v0.0.11/saz-tools_0.0.11_linux_armv6.tar.gz"
+        sha256 "1e49ec3c9dcb663a23ad8c068e8955adc2131c0913eb9aef2c322495f7b56573"
       end
     end
   end
