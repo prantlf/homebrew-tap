@@ -5,16 +5,16 @@
   "aliases": [],
   "versioned_formulae": [],
   "desc": "Parsing, dumping, viewing and analysing tools for SAZ (Fiddler) files",
+  "license": null,
   "homepage": "https://github.com/prantlf/saz-tools",
   "versions": {
-    "stable": "0.0.15",
-    "devel": null,
+    "stable": "0.0.16",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.15/saz-tools_0.0.15_darwin_x86_64.tar.gz",
+      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.16/saz-tools_0.0.16_darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -36,5 +36,7 @@
   "installed": [],
   "linked_keg": null,
   "pinned": false,
-  "outdated": false
+  "outdated": false,
+  "deprecated": false,
+  "disabled": false
 }
