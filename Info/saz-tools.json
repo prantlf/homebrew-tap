@@ -9,13 +9,13 @@
   "license": null,
   "homepage": "https://github.com/prantlf/saz-tools",
   "versions": {
-    "stable": "0.0.16",
+    "stable": "0.0.17",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.16/saz-tools_0.0.16_darwin_x86_64.tar.gz",
+      "url": "https://github.com/prantlf/saz-tools/releases/download/v0.0.17/saz-tools_0.0.17_darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null
     }
