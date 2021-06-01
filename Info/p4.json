@@ -9,13 +9,13 @@
   "license": null,
   "homepage": "https://www.perforce.com/downloads/helix-command-line-client-p4",
   "versions": {
-    "stable": "2020.1.2107780",
+    "stable": "2021.1.2126753",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://www.perforce.com/downloads/perforce/r20.1/bin.macosx1010x86_64/helix-core-server.tgz",
+      "url": "https://cdist2.perforce.com/perforce/r21.1/bin.macosx1015x86_64/helix-core-server.tgz",
       "tag": null,
       "revision": null
     }
@@ -36,7 +36,7 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2020.1.2107780",
+      "version": "2021.1.2126753",
       "used_options": [],
       "built_as_bottle": false,
       "poured_from_bottle": false,
@@ -45,7 +45,7 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "2020.1.2107780",
+  "linked_keg": "2021.1.2126753",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
