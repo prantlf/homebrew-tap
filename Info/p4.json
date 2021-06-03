@@ -5,11 +5,11 @@
   "oldname": null,
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "Helix Command-Line Client (P4) provides administrators and heavyweight users complete control over the system, custom reports, automation, and facilitates cross-platform consistency.",
+  "desc": "Perforce Helix Command-Line Client (P4)",
   "license": null,
-  "homepage": "https://www.perforce.com/downloads/helix-command-line-client-p4",
+  "homepage": "https://www.perforce.com/products/helix-core-apps/command-line-client",
   "versions": {
-    "stable": "2021.1.2126753",
+    "stable": "2021.1,2126753",
     "head": null,
     "bottle": false
   },
@@ -24,7 +24,7 @@
   "version_scheme": 0,
   "bottle": {},
   "keg_only": false,
-  "bottle_disabled": true,
+  "bottle_disabled": false,
   "options": [],
   "build_dependencies": [],
   "dependencies": [],
@@ -34,18 +34,8 @@
   "requirements": [],
   "conflicts_with": [],
   "caveats": null,
-  "installed": [
-    {
-      "version": "2021.1.2126753",
-      "used_options": [],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "runtime_dependencies": [],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
-  ],
-  "linked_keg": "2021.1.2126753",
+  "installed": [],
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
