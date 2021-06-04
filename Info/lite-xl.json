@@ -9,9 +9,9 @@
         "Lite XL"
       ],
       "desc": "Lightweight text editor written in Lua",
-      "homepage": "https://github.com/franko/lite-xl#readme",
+      "homepage": "https://lite-xl.github.io/",
       "url": "https://github.com/franko/lite-xl/releases/download/v1.16.11/lite-xl-macos-x86-64.dmg",
-      "appcast": null,
+      "appcast": "https://github.com/franko/lite-xl/releases.atom",
       "version": "1.16.11",
       "installed": "1.16.11",
       "outdated": false,
@@ -21,7 +21,10 @@
           "lite-xl.app"
         ],
         [
-          "/Applications/lite-xl.app/Contents/MacOS/lite-xl"
+          "/Applications/lite-xl.app/Contents/MacOS/lite-xl",
+          {
+            "target": "lite"
+          }
         ],
         {
           "trash": [
@@ -40,7 +43,7 @@
       },
       "conflicts_with": null,
       "container": null,
-      "auto_updates": true
+      "auto_updates": null
     }
   ]
 }
