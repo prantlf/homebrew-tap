@@ -1,0 +1,62 @@
+{
+  "name": "lua@5.2",
+  "full_name": "lua@5.2",
+  "tap": null,
+  "oldname": null,
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Powerful, lightweight programming language",
+  "license": "MIT",
+  "homepage": "https://www.lua.org/",
+  "versions": {
+    "stable": "5.2.4",
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.lua.org/ftp/lua-5.2.4.tar.gz",
+      "tag": null,
+      "revision": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {},
+  "keg_only": true,
+  "bottle_disabled": false,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    [
+      "unzip",
+      "build"
+    ]
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "caveats": "You may also want luarocks:\n  brew install luarocks\n",
+  "installed": [
+    {
+      "version": "5.2.4",
+      "used_options": [],
+      "built_as_bottle": false,
+      "poured_from_bottle": false,
+      "runtime_dependencies": [],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null
+}
