@@ -18,5 +18,5 @@ cask "lowjs" do
 
   depends_on macos: ">= :high_sierra"
 
-  binary "bin/low"
+  binary "lowjs-darwin-x86_64-#{version}/bin/low"
 end

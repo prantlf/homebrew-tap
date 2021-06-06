@@ -13,12 +13,12 @@
       "url": "https://www.neonious-iot.com/lowjs/downloads/lowjs-darwin-x86_64-20210228_3479cc6.tar.gz",
       "appcast": null,
       "version": "20210228_3479cc6",
-      "installed": null,
+      "installed": "20210228_3479cc6",
       "outdated": false,
       "sha256": "3d8c4aaf45d6d07f6ddec6f5a4a9592a5c3bf476504f52c597b0f54893c88fcb",
       "artifacts": [
         [
-          "bin/low"
+          "lowjs-darwin-x86_64-20210228_3479cc6/bin/low"
         ]
       ],
       "caveats": null,
