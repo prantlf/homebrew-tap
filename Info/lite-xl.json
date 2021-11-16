@@ -13,6 +13,7 @@
       "url": "https://github.com/franko/lite-xl/releases/download/v1.16.11/lite-xl-macos-x86-64.dmg",
       "appcast": "https://github.com/franko/lite-xl/releases.atom",
       "version": "1.16.11",
+      "versions": {},
       "installed": "1.16.11",
       "outdated": false,
       "sha256": "b3d13a38c90d83a1af4b8c3ff28d29763f6d34f7018c7b2dd2dd07f5cb4fc7de",

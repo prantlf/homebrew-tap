@@ -6,7 +6,6 @@ class SazTools < Formula
   desc "Parsing, dumping, viewing and analysing tools for SAZ (Fiddler) files"
   homepage "https://github.com/prantlf/saz-tools"
   version "0.0.17"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/prantlf/saz-tools/releases/download/v0.0.17/saz-tools_0.0.17_darwin_x86_64.tar.gz"

@@ -2,7 +2,6 @@ class Shortpwd < Formula
   desc "Trims the current working directory to a maximum length by putting an ellipsis to the middle of the shortened result."
   homepage "https://github.com/prantlf/shortpwd"
   version "1.0.3"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/prantlf/shortpwd/releases/download/v1.0.3/shortpwd-1.0.3-darwin-x86_64.tar.gz"

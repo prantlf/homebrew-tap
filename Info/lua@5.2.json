@@ -31,10 +31,9 @@
   "recommended_dependencies": [],
   "optional_dependencies": [],
   "uses_from_macos": [
-    [
-      "unzip",
-      "build"
-    ]
+    {
+      "unzip": "build"
+    }
   ],
   "requirements": [],
   "conflicts_with": [],

@@ -2,7 +2,6 @@ class Cutmidel < Formula
   desc "Trims a text to a maximum length by putting an ellipsis to the middle of the shortened result."
   homepage "https://github.com/prantlf/cutmidel"
   version "1.0.3"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/prantlf/cutmidel/releases/download/v1.0.3/cutmidel-1.0.3-darwin-x86_64.tar.gz"
