@@ -24,6 +24,10 @@
   "version_scheme": 0,
   "bottle": {},
   "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
   "bottle_disabled": false,
   "options": [],
   "build_dependencies": [],

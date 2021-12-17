@@ -1,0 +1,34 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "helix-mfa",
+      "full_token": "helix-mfa",
+      "tap": null,
+      "name": [
+        "Helix MFA Authenticator"
+      ],
+      "desc": "Provides the MFA login screen for Helix Core clients and plugins - Perforce, for example",
+      "homepage": "https://www.perforce.com/downloads/helix-mfa-authenticator",
+      "url": "https://cdist2.perforce.com/perforce/r18.3/bin.macosx1013x86_64/HelixMFA.dmg",
+      "appcast": null,
+      "version": "2018.3,1707619",
+      "versions": {},
+      "installed": "2018.3,1707619",
+      "outdated": false,
+      "sha256": "e57629b2b9147478e48944be8c968cac3ecd10bd4828c3ec75a839ac3eb73e28",
+      "artifacts": [],
+      "caveats": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "10.13"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": "{:type=>:naked}",
+      "auto_updates": null
+    }
+  ]
+}
