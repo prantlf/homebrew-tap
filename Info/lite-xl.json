@@ -14,7 +14,7 @@
       "appcast": "https://github.com/franko/lite-xl/releases.atom",
       "version": "1.16.11",
       "versions": {},
-      "installed": "1.16.11",
+      "installed": null,
       "outdated": false,
       "sha256": "b3d13a38c90d83a1af4b8c3ff28d29763f6d34f7018c7b2dd2dd07f5cb4fc7de",
       "artifacts": [
@@ -44,7 +44,8 @@
       },
       "conflicts_with": null,
       "container": null,
-      "auto_updates": null
+      "auto_updates": null,
+      "variations": {}
     }
   ]
 }

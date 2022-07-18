@@ -14,7 +14,7 @@
       "appcast": null,
       "version": "2018.3,1707619",
       "versions": {},
-      "installed": "2018.3,1707619",
+      "installed": null,
       "outdated": false,
       "sha256": "e57629b2b9147478e48944be8c968cac3ecd10bd4828c3ec75a839ac3eb73e28",
       "artifacts": [],
@@ -28,7 +28,8 @@
       },
       "conflicts_with": null,
       "container": "{:type=>:naked}",
-      "auto_updates": null
+      "auto_updates": null,
+      "variations": {}
     }
   ]
 }
