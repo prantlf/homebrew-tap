@@ -1,0 +1,35 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "p4v",
+      "full_token": "p4v",
+      "tap": null,
+      "name": [
+        "Helix Visual Client (P4V)"
+      ],
+      "desc": "Provides access to versioned files in Helix Core (Perforce) through a graphical interface. It includes tools for merging and visualizing code evolution.",
+      "homepage": "https://www.perforce.com/downloads/helix-visual-client-p4v",
+      "url": "https://www.perforce.com/downloads/perforce/r22.2/bin.macosx1015x86_64/P4V.dmg",
+      "appcast": null,
+      "version": "2022.2,2304646",
+      "versions": {},
+      "installed": null,
+      "outdated": false,
+      "sha256": "d72c017e516d37508e0433dcf94fa96e208781a24a161bb545eee3100cfb963b",
+      "artifacts": [],
+      "caveats": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "10.15"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "auto_updates": null,
+      "variations": {}
+    }
+  ]
+}
