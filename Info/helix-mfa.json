@@ -17,17 +17,29 @@
       "installed": null,
       "outdated": false,
       "sha256": "e57629b2b9147478e48944be8c968cac3ecd10bd4828c3ec75a839ac3eb73e28",
-      "artifacts": [],
+      "artifacts": [
+        [
+          "HelixMFA.app"
+        ],
+        {
+          "trash": [
+            "~/Library/Preferences/com.perforce.Helix",
+            "~/Library/Preferences/com.perforce.Helix.plist",
+            "~/Library/Saved Application State/com.perforce.HelixMFA.savedState"
+          ],
+          "signal": {}
+        }
+      ],
       "caveats": null,
       "depends_on": {
         "macos": {
           ">=": [
-            "10.13"
+            "10.11"
           ]
         }
       },
       "conflicts_with": null,
-      "container": "{:type=>:naked}",
+      "container": null,
       "auto_updates": null,
       "variations": {}
     }
