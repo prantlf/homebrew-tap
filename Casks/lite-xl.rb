@@ -1,10 +1,10 @@
 cask "lite-xl" do
-  version "1.16.11"
-  sha256 "b3d13a38c90d83a1af4b8c3ff28d29763f6d34f7018c7b2dd2dd07f5cb4fc7de"
+  version "2.0.5"
+  sha256 "08955b1d7fe46dbbc74f57a8d3db12b3c343b7afba02b6baedf762771f6c7a4a"
 
-  url "https://github.com/franko/lite-xl/releases/download/v#{version}/lite-xl-macos-x86-64.dmg",
-      verified: "github.com/franko/lite-xl/"
-  appcast "https://github.com/franko/lite-xl/releases.atom"
+  url "https://github.com/lite-xl/lite-xl/releases/download/v#{version}/lite-xl-macos-x86-64.dmg",
+      verified: "github.com/lite-xl/lite-xl/"
+  appcast "https://github.com/lite-xl/lite-xl/releases.atom"
   name "Lite XL"
   desc "Lightweight text editor written in Lua"
   homepage "https://lite-xl.github.io/"
