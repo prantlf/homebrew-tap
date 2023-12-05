@@ -48,7 +48,7 @@ If you are looking for the [p4v] cask, it was removed from here, because it is [
 
 ## License
 
-Copyright (c) 2020-2022 Ferdinand Prantl
+Copyright (c) 2020-2023 Ferdinand Prantl
 
 Licensed under the MIT license.
 
