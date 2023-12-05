@@ -4,6 +4,7 @@
     {
       "token": "lowjs",
       "full_token": "lowjs",
+      "old_tokens": [],
       "tap": null,
       "name": [
         "low.js"
@@ -11,16 +12,19 @@
       "desc": "Node.js for microcontrollers",
       "homepage": "https://www.neonious-iot.com/lowjs/",
       "url": "https://www.neonious-iot.com/lowjs/downloads/lowjs-darwin-x86_64-20210228_3479cc6.tar.gz",
+      "url_specs": {},
       "appcast": null,
       "version": "20210228_3479cc6",
-      "versions": {},
       "installed": null,
+      "installed_time": null,
       "outdated": false,
       "sha256": "3d8c4aaf45d6d07f6ddec6f5a4a9592a5c3bf476504f52c597b0f54893c88fcb",
       "artifacts": [
-        [
-          "lowjs-darwin-x86_64-20210228_3479cc6/bin/low"
-        ]
+        {
+          "binary": [
+            "lowjs-darwin-x86_64-20210228_3479cc6/bin/low"
+          ]
+        }
       ],
       "caveats": null,
       "depends_on": {
@@ -33,7 +37,12 @@
       "conflicts_with": null,
       "container": null,
       "auto_updates": null,
-      "variations": {}
+      "tap_git_head": null,
+      "languages": [],
+      "ruby_source_path": null,
+      "ruby_source_checksum": {
+        "sha256": "1598c31431be154c8b33fc8da2d45e05d8fb4b1cf57d157182d7f1097e04c50d"
+      }
     }
   ]
 }

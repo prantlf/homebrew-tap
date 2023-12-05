@@ -3,6 +3,7 @@
   "full_name": "lua@5.2",
   "tap": null,
   "oldname": null,
+  "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
   "desc": "Powerful, lightweight programming language",
@@ -17,7 +18,9 @@
     "stable": {
       "url": "https://www.lua.org/ftp/lua-5.2.4.tar.gz",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "using": null,
+      "checksum": "b9e2e4aad6789b3b63a056d442f7b39f0ecfca3ae0f1fc0ae4e9614401b69f4b"
     }
   },
   "revision": 0,
@@ -31,6 +34,7 @@
   "options": [],
   "build_dependencies": [],
   "dependencies": [],
+  "test_dependencies": [],
   "recommended_dependencies": [],
   "optional_dependencies": [],
   "uses_from_macos": [
@@ -38,8 +42,13 @@
       "unzip": "build"
     }
   ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
   "requirements": [],
   "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
   "caveats": "You may also want luarocks:\n  brew install luarocks\n",
   "installed": [],
   "linked_keg": null,
@@ -50,5 +59,12 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": null,
+  "ruby_source_path": null,
+  "ruby_source_checksum": {
+    "sha256": "af5fcd29c4576c0be140bf5891ff3441cceed1aa09c09e8f4f17d07f9fc66cc6"
+  }
 }
