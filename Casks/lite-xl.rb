@@ -1,13 +1,13 @@
 cask "lite-xl" do
-  version "1.16.11"
-  sha256 "b3d13a38c90d83a1af4b8c3ff28d29763f6d34f7018c7b2dd2dd07f5cb4fc7de"
+  version "2.1.1"
+  sha256 "b0b636d922114b4cda1671f803276032abd945cdf3acd0db7910becca2f79093"
 
-  url "https://github.com/franko/lite-xl/releases/download/v#{version}/lite-xl-macos-x86-64.dmg",
+  url "https://github.com/lite-xl/lite-xl/releases/download/v#{version}/lite-xl-v#{version}-macos-x86_64.dm",
       verified: "github.com/franko/lite-xl/"
   appcast "https://github.com/franko/lite-xl/releases.atom"
   name "Lite XL"
   desc "Lightweight text editor written in Lua"
-  homepage "https://lite-xl.github.io/"
+  homepage "https://lite-xl.com/"
 
   livecheck do
     url :url
@@ -17,7 +17,7 @@ cask "lite-xl" do
   depends_on macos: ">= :high_sierra"
 
   app "lite-xl.app"
-  binary "#{appdir}/lite-xl.app/Contents/MacOS/lite-xl", target: "lite"
+  binary "#{appdir}/Lite XL.app/Contents/MacOS/lite-xl", target: "lite"
 
   zap trash: ["~/.config/lite-xl"]
 end

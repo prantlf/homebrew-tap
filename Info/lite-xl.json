@@ -4,34 +4,45 @@
     {
       "token": "lite-xl",
       "full_token": "lite-xl",
+      "old_tokens": [],
       "tap": null,
       "name": [
         "Lite XL"
       ],
       "desc": "Lightweight text editor written in Lua",
-      "homepage": "https://lite-xl.github.io/",
-      "url": "https://github.com/franko/lite-xl/releases/download/v1.16.11/lite-xl-macos-x86-64.dmg",
-      "appcast": "https://github.com/franko/lite-xl/releases.atom",
-      "version": "1.16.11",
-      "versions": {},
+      "homepage": "https://lite-xl.com/",
+      "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.1.1/lite-xl-v2.1.1-macos-x86_64.dm",
+      "url_specs": {
+        "verified": "github.com/franko/lite-xl/"
+      },
+      "appcast": true,
+      "version": "2.1.1",
       "installed": null,
+      "installed_time": null,
       "outdated": false,
-      "sha256": "b3d13a38c90d83a1af4b8c3ff28d29763f6d34f7018c7b2dd2dd07f5cb4fc7de",
+      "sha256": "b0b636d922114b4cda1671f803276032abd945cdf3acd0db7910becca2f79093",
       "artifacts": [
-        [
-          "lite-xl.app"
-        ],
-        [
-          "/Applications/lite-xl.app/Contents/MacOS/lite-xl",
-          {
-            "target": "lite"
-          }
-        ],
         {
-          "trash": [
-            "~/.config/lite-xl"
-          ],
-          "signal": {}
+          "app": [
+            "lite-xl.app"
+          ]
+        },
+        {
+          "binary": [
+            "/Applications/Lite XL.app/Contents/MacOS/lite-xl",
+            {
+              "target": "lite"
+            }
+          ]
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/.config/lite-xl"
+              ]
+            }
+          ]
         }
       ],
       "caveats": null,
@@ -45,7 +56,12 @@
       "conflicts_with": null,
       "container": null,
       "auto_updates": null,
-      "variations": {}
+      "tap_git_head": null,
+      "languages": [],
+      "ruby_source_path": null,
+      "ruby_source_checksum": {
+        "sha256": "d2465ae36419343c3341edd75c3c1b5b0b1b53724ab9476a7786f65d9da083c1"
+      }
     }
   ]
 }
