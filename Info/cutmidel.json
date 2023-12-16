@@ -42,19 +42,8 @@
   "conflicts_with_reasons": [],
   "link_overwrite": [],
   "caveats": null,
-  "installed": [
-    {
-      "version": "1.0.3",
-      "used_options": [],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "time": 1658129974,
-      "runtime_dependencies": [],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
-  ],
-  "linked_keg": "1.0.3",
+  "installed": [],
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
