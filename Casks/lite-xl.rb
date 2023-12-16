@@ -4,7 +4,6 @@ cask "lite-xl" do
 
   url "https://github.com/lite-xl/lite-xl/releases/download/v#{version}/lite-xl-v#{version}-macos-x86_64.dm",
       verified: "github.com/franko/lite-xl/"
-  appcast "https://github.com/franko/lite-xl/releases.atom"
   name "Lite XL"
   desc "Lightweight text editor written in Lua"
   homepage "https://lite-xl.com/"

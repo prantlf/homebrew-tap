@@ -15,7 +15,7 @@
       "url_specs": {
         "verified": "github.com/franko/lite-xl/"
       },
-      "appcast": true,
+      "appcast": null,
       "version": "2.1.1",
       "installed": null,
       "installed_time": null,
@@ -60,7 +60,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "d2465ae36419343c3341edd75c3c1b5b0b1b53724ab9476a7786f65d9da083c1"
+        "sha256": "75a4903913b80df081419858af233bbf6c626831b86fe1ea437fee46369b4858"
       }
     }
   ]
