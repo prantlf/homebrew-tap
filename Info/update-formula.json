@@ -10,17 +10,17 @@
   "license": null,
   "homepage": "https://github.com/prantlf/update-formula",
   "versions": {
-    "stable": "0.1.2",
+    "stable": "0.1.3",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/update-formula/releases/download/v0.1.2/update-formula-macos-x64.zip",
+      "url": "https://github.com/prantlf/update-formula/releases/download/v0.1.3/update-formula-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "222ecac93f733ecc93c9b526d2fc64314517e3c65bbb50125ef6feb55f16bc80"
+      "checksum": "588ba66e197c23ba8a57d7daa295d84a2c22380a6499a4bd576bb6971353782c"
     }
   },
   "revision": 0,
@@ -45,7 +45,7 @@
   "installed": [],
   "linked_keg": null,
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "e22d1c7a6ed4df99ee5582cd624a76757d43af0fedcf752167a9843ccfa3b285"
+    "sha256": "ee5b6a3f8ea80ea0c9d42837623f1ba568ec22700976acff66bd6ce8c71d28fc"
   }
 }
