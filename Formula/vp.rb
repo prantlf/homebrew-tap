@@ -1,25 +1,25 @@
 class Vp < Formula
   desc "Helps with development, installation and maintenance of VPM packages."
   homepage "https://github.com/prantlf/vp"
-  version "0.11.0"
+  version "0.12.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prantlf/vp/releases/download/v0.11.0/vp-macos-x64.zip"
-      sha256 "87a24b56a427a0cc21f3fa756e08e138839cb611739a9bf404292f5e360be416"
+      url "https://github.com/prantlf/vp/releases/download/v0.12.1/vp-macos-x64.zip"
+      sha256 "fc4108070bc9b6c98592e5e83bf5191a1c80ded1dc5ea88c397fc4e63a89db07 "
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/vp/releases/download/v0.11.0/vp-macos-arm64.zip"
-      sha256 "246f0cefc17ce6708fa90d138d52364202e21661f5de21568843fe4b4944cb64"
+      url "https://github.com/prantlf/vp/releases/download/v0.12.1/vp-macos-arm64.zip"
+      sha256 "60c999393196b97cb4be3030ab0fa728df72af37d88acc4b737c83df4e108ccc"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/vp/releases/download/v0.11.0/vp-linux-x64.zip"
-      sha256 "9b85ca316dc6283350e3499a0c9fed1cb0358cc89c02cd648aa2562be8b8f431"
+      url "https://github.com/prantlf/vp/releases/download/v0.12.1/vp-linux-x64.zip"
+      sha256 "5e9836e9222b282489ffe69df4a026850f97fe075b63df8e48722a4e93cbae12"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/vp/releases/download/v0.11.0/vp-linux-arm64.zip"
-      sha256 "bb675a93e053855fdf4ced891ae918d00c8e72655638e84f43eba1d16f96526d"
+      url "https://github.com/prantlf/vp/releases/download/v0.12.1/vp-linux-arm64.zip"
+      sha256 "349fc21eeb25d9aa4f67326037510c9437cb60358413c4d1916c4545e80befc8"
     end
   end
 

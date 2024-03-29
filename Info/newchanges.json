@@ -10,17 +10,17 @@
   "license": null,
   "homepage": "https://github.com/prantlf/v-newchanges",
   "versions": {
-    "stable": "0.4.0",
+    "stable": "0.5.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/newchanges/releases/download/v0.4.0/newchanges-macos-x64.zip",
+      "url": "https://github.com/prantlf/newchanges/releases/download/v0.5.0/newchanges-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "40553f60590ed199d780779ee2682e1feb17c23cc76d47263a2988621e37a584"
+      "checksum": "f2a0a0777b977d98e10114eb6ecdc8510c5663de4f8e10dcf07096254bf312d1"
     }
   },
   "revision": 0,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "7ff29b4dd9746d4bfaa4a2c01c96a8767525525b33f1c80651cc7677bc9ae1e6"
+    "sha256": "2f78a52b0856ca778d0bd2f520efdc90762e53ba4306c3fe3e794d02f116aa68"
   }
 }

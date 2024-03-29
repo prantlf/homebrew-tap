@@ -45,7 +45,7 @@
   "installed": [],
   "linked_keg": null,
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
