@@ -1,25 +1,25 @@
 class Newchanges < Formula
   desc "Creates or updates the changelog file from commit messages."
   homepage "https://github.com/prantlf/v-newchanges"
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prantlf/newchanges/releases/download/v0.5.0/newchanges-macos-x64.zip"
-      sha256 "f2a0a0777b977d98e10114eb6ecdc8510c5663de4f8e10dcf07096254bf312d1"
+      url "https://github.com/prantlf/newchanges/releases/download/v0.5.1/newchanges-macos-x64.zip"
+      sha256 "b163e9f6f81278fa4c1c81985beb8f908ac7a8c440a852c21d74a1799cc6f2dd"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/newchanges/releases/download/v0.5.0/newchanges-macos-arm64.zip"
-      sha256 "bba9f5f4e262937c4e1cdf53ffa6d854ea13458c7729ddbdb720c3c88df97378"
+      url "https://github.com/prantlf/newchanges/releases/download/v0.5.1/newchanges-macos-arm64.zip"
+      sha256 "e338f3e8ee3caafca14a15c6edadac802e3da38f3c5a96e5177246b89a90b835"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/newchanges/releases/download/v0.5.0/newchanges-linux-x64.zip"
-      sha256 "75228e580164721df393385985fc2d1f28972b44f105745d4cd941289b3973c4"
+      url "https://github.com/prantlf/newchanges/releases/download/v0.5.1/newchanges-linux-x64.zip"
+      sha256 "3bf07bd8a5381014a35943ecf0a6623b57f369268009c53ddcce903112ed28bc"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/newchanges/releases/download/v0.5.0/newchanges-linux-arm64.zip"
-      sha256 "4794028686c5ec3587ed38aaf522531c182515c20f0713de217e33673223fb53"
+      url "https://github.com/prantlf/newchanges/releases/download/v0.5.1/newchanges-linux-arm64.zip"
+      sha256 "d28857c38b08fc9eb59839bdddd34f2d010112e9fb693180f9f5c7596d13ddab"
     end
   end
 
