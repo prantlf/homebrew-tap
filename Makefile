@@ -5,7 +5,8 @@ all :: update info
 
 update ::
 	update-formula Formula/jsonlint2.rb Formula/newchanges.rb \
-		Formula/update-formula.rb Formula/vp.rb Formula/yaml2json.rb
+		Formula/update-formula.rb Formula/vp.rb Formula/yaml2json.rb \
+		Casks/lite-xl.rb
 
 info ::
 	mkdir -p Info
