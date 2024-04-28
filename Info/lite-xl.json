@@ -10,19 +10,17 @@
         "Lite XL"
       ],
       "desc": "Lightweight text editor written in Lua",
-      "homepage": "https://lite-xl.com/",
-      "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.1.1/lite-xl-v2.1.1-macos-x86_64.dm",
-      "url_specs": {
-        "verified": "github.com/franko/lite-xl/"
-      },
+      "homepage": "https://github.com/lite-xl/lite-xl",
+      "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.1.4/lite-xl-v2.1.4-macos-x86_64.dmg",
+      "url_specs": {},
       "appcast": null,
-      "version": "2.1.1",
+      "version": "2.1.4",
       "installed": null,
       "installed_time": null,
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "b0b636d922114b4cda1671f803276032abd945cdf3acd0db7910becca2f79093",
+      "sha256": "95d634e56fac7ceea408c79e5fd82f955360751a094864fe3a783478bef5615c",
       "artifacts": [
         {
           "app": [
@@ -68,7 +66,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "75a4903913b80df081419858af233bbf6c626831b86fe1ea437fee46369b4858"
+        "sha256": "8f3e2a708ffcd95e08794e5c97151892ec3eecaeb2faf68ad7161d0cfac984ee"
       }
     }
   ]
