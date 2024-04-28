@@ -22,7 +22,7 @@ cask "lite-xl" do
   depends_on macos: ">= :high_sierra"
 
   app "lite-xl.app"
-  binary "#{appdir}/Lite XL.app/Contents/MacOS/lite-xl", target: "lite"
+  binary "#{appdir}/Lite XL/Lite XL.app/Contents/MacOS/lite-xl", target: "lite"
 
   zap trash: ["~/.config/lite-xl"]
 end
