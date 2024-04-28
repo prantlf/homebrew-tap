@@ -14,7 +14,6 @@ cask "lite-xl" do
     sha256 "5e26cfee4d3d02fbad34ec4507733ac749c12191d391669129754260fc1ae547"
   end
 
-  appcast "https://github.com/lite-xl/lite-xl/releases.atom"
   livecheck do
     url :url
     strategy :github_latest
