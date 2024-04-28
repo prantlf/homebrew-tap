@@ -22,7 +22,8 @@ cask "lite-xl" do
   depends_on macos: ">= :high_sierra"
 
   app "Lite XL.app"
-  binary "#{appdir}/Lite XL.app/Contents/MacOS/lite-xl", target: "lite"
+
+  caveats "The symbolic link `lite` doesn't work any more. Create a shell alias instead.\nYou may just execute it, or include it in .hashrc or .zshrc:\n\nalias lite='\"/Applications/Lite XL.app/Contents/MacOS/lite-xl\"'"
 
   zap trash: ["~/.config/lite-xl"]
 end
