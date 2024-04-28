@@ -1,26 +1,26 @@
 {
-  "name": "shortpwd",
-  "full_name": "shortpwd",
+  "name": "yaml2json",
+  "full_name": "yaml2json",
   "tap": null,
   "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "Trims the current working directory to a maximum length by putting an ellipsis to the middle of the shortened result.",
+  "desc": "Converts YAML input to JSON/JSON5 output.",
   "license": null,
-  "homepage": "https://github.com/prantlf/shortpwd",
+  "homepage": "https://github.com/prantlf/v-yaml2json",
   "versions": {
-    "stable": "1.0.3",
+    "stable": "0.3.2",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/shortpwd/releases/download/v1.0.3/shortpwd-1.0.3-darwin-x86_64.tar.gz",
+      "url": "https://github.com/prantlf/yaml2json/releases/download/v0.3.2/yaml2json-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "d3d53f7f43b936dc001dd463e753ca42e252f28e265bfa4009eceb9f32a98e5e"
+      "checksum": "bd97bb0aca0793e66417272e05a0874161efecd74321fbbfd84ed579e1bc441c"
     }
   },
   "revision": 0,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "4366059882ddb6c87c5cef783d4c375a1eae174445d1a031e2762d0c045a896a"
+    "sha256": "def48e5b2ace3b80725a55fd6324df9def4f2804190b4f882e12a37e482efc60"
   }
 }

@@ -1,6 +1,13 @@
 formulae=$(subst Formula/,,$(wildcard Formula/*.rb))
 casks=$(subst Casks/,,$(wildcard Casks/*.rb))
 
+all :: update info
+
+update ::
+	update-formula Formula/jsonlint2.rb Formula/newchanges.rb \
+		Formula/update-formula.rb Formula/vp.rb Formula/yaml2json.rb \
+		Casks/lite-xl.rb
+
 info ::
 	mkdir -p Info
 	for formula in $(formulae); do \
