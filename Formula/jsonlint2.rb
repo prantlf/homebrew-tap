@@ -1,25 +1,25 @@
 class Jsonlint2 < Formula
   desc "JSON/JSONC/JSON5 validator and pretty-printer."
   homepage "https://github.com/prantlf/v-jsonlint"
-  version "0.3.2"
+  version "0.3.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.2/jsonlint-macos-x64.zip"
-      sha256 "56941b60b75b28df8527e718f4b044e4b6d1e54026fc1773f06a3204c6b0562d"
+      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.3/jsonlint-macos-x64.zip"
+      sha256 "c1eb71b656e791e75995d207fc648070e995e200395a051a20912242a054d4ea"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.2/jsonlint-macos-arm64.zip"
-      sha256 "b03cccba30b93d9dd8e81cd87b40e272008c2ba83a1a89aa1c5fa979d802007d"
+      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.3/jsonlint-macos-arm64.zip"
+      sha256 "0fcfb63a5564d6cab5db17995289a048e95f13c1d819fb56a9f3e642360db9de"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.2/jsonlint-linux-x64.zip"
-      sha256 "c94782e5585c2dfdecc056cc9bde3ca253869fd7a6f11249252697d0df37ea9e"
+      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.3/jsonlint-linux-x64.zip"
+      sha256 "157fc3745b0b17bf738a670e9e734d50e1d48798599787c368df38b32282878c"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.2/jsonlint-linux-arm64.zip"
-      sha256 "333fd9f61430e775afe13b542be55350004ae693d4aad6e8884a2869194b5138"
+      url "https://github.com/prantlf/jsonlint/releases/download/v0.3.3/jsonlint-linux-arm64.zip"
+      sha256 "34d958b4b49ceca7937a201d0ed2855919cf0daea5ae86bf97854c92196ea54b"
     end
   end
 

@@ -11,18 +11,20 @@
       ],
       "desc": "Lightweight text editor written in Lua",
       "homepage": "https://github.com/lite-xl/lite-xl",
-      "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.1.4/lite-xl-v2.1.4-macos-x86_64.dmg",
+      "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-macos-x86_64.dmg",
       "url_specs": {
         "verified": "github.com/lite-xl/lite-xl/"
       },
-      "appcast": null,
-      "version": "2.1.4",
-      "installed": null,
-      "installed_time": null,
+      "version": "2.1.8",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "2.1.4",
+      "installed_time": 1714294514,
       "bundle_version": null,
-      "bundle_short_version": null,
-      "outdated": false,
-      "sha256": "95d634e56fac7ceea408c79e5fd82f955360751a094864fe3a783478bef5615c",
+      "bundle_short_version": "2.1.4",
+      "outdated": true,
+      "sha256": "b2a4cbc42c633f428d3a7ea2a0d14296f553996cf36fb2af582a94683794c453",
       "artifacts": [
         {
           "app": [
@@ -49,18 +51,23 @@
       },
       "conflicts_with": null,
       "container": null,
+      "rename": [],
       "auto_updates": null,
       "deprecated": false,
       "deprecation_date": null,
       "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
       "disabled": false,
       "disable_date": null,
       "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
       "tap_git_head": null,
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "31dc7f5e927ee5dd4e414576de2ffadf533ab7424f4476e82e4b6f961748bf33"
+        "sha256": "d63f6140355a6c10f511c58228058829a8d72747865290cb19c9558dde9339dc"
       }
     }
   ]

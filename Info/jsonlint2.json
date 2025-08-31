@@ -2,7 +2,6 @@
   "name": "jsonlint2",
   "full_name": "jsonlint2",
   "tap": null,
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -10,21 +9,24 @@
   "license": null,
   "homepage": "https://github.com/prantlf/v-jsonlint",
   "versions": {
-    "stable": "0.3.2",
+    "stable": "0.3.3",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/jsonlint/releases/download/v0.3.2/jsonlint-macos-x64.zip",
+      "url": "https://github.com/prantlf/jsonlint/releases/download/v0.3.3/jsonlint-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "56941b60b75b28df8527e718f4b044e4b6d1e54026fc1773f06a3204c6b0562d"
+      "checksum": "c1eb71b656e791e75995d207fc648070e995e200395a051a20912242a054d4ea"
     }
   },
   "revision": 0,
   "version_scheme": 0,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
   "bottle": {},
   "pour_bottle_only_if": null,
   "keg_only": false,
@@ -49,14 +51,18 @@
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
   "post_install_defined": false,
   "service": null,
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "bfa544023ab9738331dca2ebc7d45ee17936a2319849efdd351ab29bb5dc2ac2"
+    "sha256": "0188e9150a2fbc236d1e035299c4ee33cb2f777b2a7aa1489d4ab5d10ac6ed7b"
   }
 }

@@ -1,25 +1,25 @@
 class UpdateFormula < Formula
   desc "Updates version numbers and SHA-256 hashes in Homebrew formula files for GitHub releases."
   homepage "https://github.com/prantlf/update-formula"
-  version "0.2.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prantlf/update-formula/releases/download/v0.2.0/update-formula-macos-x64.zip"
-      sha256 "78f3e1f26a89ed6831db999e2249373e19663797e7a01ba93c34fb95f1e24702"
+      url "https://github.com/prantlf/update-formula/releases/download/v0.3.1/update-formula-macos-x64.zip"
+      sha256 "9a3ceb403de28fa4277a409fb90d402f48752240f4a469914fde362bc524dd5a"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/update-formula/releases/download/v0.2.0/update-formula-macos-arm64.zip"
-      sha256 "e6175b2bf1d337046c0050d3dfc88b4a82bebd9445fcd8499be9457df5ffd665"
+      url "https://github.com/prantlf/update-formula/releases/download/v0.3.1/update-formula-macos-arm64.zip"
+      sha256 "10e3dae6d0c2871c2b6db601335095931c6e2f343bf73d3e8bf94602354410ba"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/update-formula/releases/download/v0.2.0/update-formula-linux-x64.zip"
-      sha256 "788ae7c1d8eae3c4c6c03f48ac4f9ba3b5138c981079dc1216fc5e640aa8d71d"
+      url "https://github.com/prantlf/update-formula/releases/download/v0.3.1/update-formula-linux-x64.zip"
+      sha256 "67283c82a971e94aab082ebef70c7026a4910b83b09a7ebb1e3ab6ba17164b90"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/prantlf/update-formula/releases/download/v0.2.0/update-formula-linux-arm64.zip"
-      sha256 "3a07414897bd36be031c3b2bcf018f592bf6f96dbd3bf57e9b145e1e685ec75b"
+      url "https://github.com/prantlf/update-formula/releases/download/v0.3.1/update-formula-linux-arm64.zip"
+      sha256 "9e7571018f8854d8a9eae9652b344cd2a957aab063c655f08235f62fbc6fa328"
     end
   end
 

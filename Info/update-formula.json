@@ -2,7 +2,6 @@
   "name": "update-formula",
   "full_name": "update-formula",
   "tap": null,
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -10,21 +9,24 @@
   "license": null,
   "homepage": "https://github.com/prantlf/update-formula",
   "versions": {
-    "stable": "0.2.0",
+    "stable": "0.3.1",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/update-formula/releases/download/v0.2.0/update-formula-macos-x64.zip",
+      "url": "https://github.com/prantlf/update-formula/releases/download/v0.3.1/update-formula-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "78f3e1f26a89ed6831db999e2249373e19663797e7a01ba93c34fb95f1e24702"
+      "checksum": "9a3ceb403de28fa4277a409fb90d402f48752240f4a469914fde362bc524dd5a"
     }
   },
   "revision": 0,
   "version_scheme": 0,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
   "bottle": {},
   "pour_bottle_only_if": null,
   "keg_only": false,
@@ -43,20 +45,24 @@
   "link_overwrite": [],
   "caveats": null,
   "installed": [],
-  "linked_keg": null,
+  "linked_keg": "0.2.0",
   "pinned": false,
   "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
   "post_install_defined": false,
   "service": null,
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "a2e84bd55cf1791b0cc6ddc31c2f04b584f58e6ab54b1565bcca5862a543cb32"
+    "sha256": "594de178f12eefdc4684d73e26e76e74db483a58571bf21509d802e87c0bcfa3"
   }
 }

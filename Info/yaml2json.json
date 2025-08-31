@@ -2,7 +2,6 @@
   "name": "yaml2json",
   "full_name": "yaml2json",
   "tap": null,
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -10,21 +9,24 @@
   "license": null,
   "homepage": "https://github.com/prantlf/v-yaml2json",
   "versions": {
-    "stable": "0.3.2",
+    "stable": "0.4.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prantlf/yaml2json/releases/download/v0.3.2/yaml2json-macos-x64.zip",
+      "url": "https://github.com/prantlf/yaml2json/releases/download/v0.4.0/yaml2json-macos-x64.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "bd97bb0aca0793e66417272e05a0874161efecd74321fbbfd84ed579e1bc441c"
+      "checksum": "8ff5f66078815acb62443ec0a92443b47f1eba5fb1337763cf6444975c77bc6c"
     }
   },
   "revision": 0,
   "version_scheme": 0,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
   "bottle": {},
   "pour_bottle_only_if": null,
   "keg_only": false,
@@ -49,14 +51,18 @@
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
   "post_install_defined": false,
   "service": null,
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "def48e5b2ace3b80725a55fd6324df9def4f2804190b4f882e12a37e482efc60"
+    "sha256": "887e0239fc6c98825eb2e74f48b9bcd2e86bec1524f5b5cf9c952dc53e7f7d80"
   }
 }
